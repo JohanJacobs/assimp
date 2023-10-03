@@ -122,7 +122,7 @@ project 'assimp'
 		"include/assimp/*.hpp",
 		"include/assimp/*.inl",
 
-		"code/res/*.rc"
+		--"code/res/*.rc" -- windows resouce file
 	}
 	-- Importers
 	defines {
